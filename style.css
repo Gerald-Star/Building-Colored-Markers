@@ -24,4 +24,29 @@ h1 {
   .blue {
     background-color: hsl(240, 100%, 50%);
   }
+
+  .dark-blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%));
+  }
+
+  /* new color picker with box-shadow offsetx offsety 
+  blurRadius and spreadRadus*/
+  .offset-red{
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: -5px -5px red;
+  }
+
+  .offset-green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 5px 5px 5px green;
+  }
   
+  .offset-blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 0 5px blue;
+  }
+
+  .offset-dark-blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 hsla(223,59%, 31%, 0.8);
+  }
